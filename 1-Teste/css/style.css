@@ -1,0 +1,139 @@
+/*=====  RESET BROWSER  ===== */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/*===== FONTES =====*/
+
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ramaraja&display=swap');
+
+/*===== ESCOPO DO SITE =====*/
+
+body {
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url('https://th.bing.com/th/id/R.229ffac317187047f07cba92c9cf8c2c?rik=JnnrW92gCVVDqw&pid=ImgRaw&r=0');
+}
+
+#topoHeader {
+  width: 100%;
+  height: 3.5rem;
+  background-color: blue;
+}
+
+.headerTitulo {
+  color: white;
+  position: fixed;
+  padding: 1rem 0rem 0.2rem 3rem;
+}
+
+/*===== MAIN =====*/
+
+#topoMain {
+  width: 100%;
+  height: auto;
+}
+
+.scopoSite {
+  width: 100%;
+  display: inline;
+}
+
+.mainParagrafo {
+  font-size: 1.2rem;
+  padding: 2rem 2rem;
+  text-align: justify;
+  color: rgb(255, 255, 255);
+  line-height: 1.5rem;
+  font-family: 'Delius+Swash+Caps', sans-serif;
+}
+
+.mainVideo {
+  display: flex;
+  padding: auto;
+}
+
+.mainTitulo {
+  margin-top: 1rem;
+  display: flex;
+  font-family: 'Ramaraja', sans-serif;
+  padding-left: 5rem;
+  color: rgb(17, 87, 228);
+}
+
+.main-Pictures {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pictures {
+  width: 30%;
+  height: fit-content;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  transition: 0.7s ease-in-out;
+}
+
+.pictures:hover {
+  transform: scale(1.02);
+  filter: brightness(120%);
+}
+
+.imgmain {
+  width: 80%;
+  position: relative;
+  top: 0rem;
+  left: 1.5rem;
+}
+
+.limain {
+  text-align: justify;
+  color: rgb(255, 255, 255);
+}
+
+/*===== FOOTER =====*/
+
+#topoFooter {
+  width: 100%;
+  padding: 2rem 2rem;
+}
+
+.topoRedesSociais {
+  width: 100%;
+  display: flex;
+}
+
+.redesFooter {
+  width: 50%;
+  display: flex;
+  padding: 0.5rem;
+}
+
+.imgFooter {
+  border-radius: 6px;
+  display: block;
+  width: 5%;
+}
+
+.liFooter {
+  align-items: baseline;
+  position: relative;
+  left: 0.5rem;
+  text-decoration-color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.powered {
+  position: relative;
+  bottom: -1.5rem;
+  left: 0.5rem;
+}
+
+/*=====  ÁDERSON COSTA  ===== */
